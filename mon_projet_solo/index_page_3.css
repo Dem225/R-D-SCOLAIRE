@@ -41,40 +41,281 @@ width: 120px;
     color: black;
     font-size: 20px;
 }
-
-
-#page_photo{
-    height: 500px;
+.page_box{
+    height: 700px;
     width: 100%;
-    border: 1px solid black;
-    margin-top: 10px;
     display: flex;
-}
-.page_image{
-    height: 400px;
-width:30%;
-overflow: hidden;
+    justify-content: space-between;
+   justify-content: center;
+  overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-align-items: center;
-text-align: center;
-
-justify-content: center;
-
-}
-.page_image img{
-height: 490px;
-    width: 360px;
-    /* border: 2px solid rgb(22, 254, 239); */
-   
-    justify-content: center;    
-    align-items: center ;
-    border-radius: 30px;
-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-}
-.page_image h5{
   text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.page_box_image {
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  align-items: center;
+}
+.page_box_image img{
+ height: 560px;
+ width: 487px;
+border-radius: 30px;
+}
+.page_box_image{
+font-family: 'poppis' sans-serif;
+font-size: 25px;
+}
+
+/* place au consigne  */
+#consigne{
+height: 80px;
+width: 100%;
+text-align: center;
+justify-content: center;
+display: flex;
+align-items: center;
+
+margin-top: 45px;
+}
+#consigne h3{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+
+ /* animation: Zebi 17s ease infinite; */
+  animation: zebi 10s ease infinite;
+}
+
+/* @keyframes Zebi {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
+} */
+/* @keyframes zebi {
+  from {
+    transform: translate(390px);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+} */
+
+
+ /* CONSEIL ET PRATIQUE  */
+
+ #case_boxe{
+    height: 880px;
+    width: 100%;
+    border: 2px solid rgb(121, 30, 30);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+      overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+ }
+ .case_mini{
+    height: 94%;
+    width: 32%;
+     border: 1px solid black;
+       overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ }
+
+ /* mise en place de icone  */
+
+.case_icone{
+    height: 27%;
+    width: 100%;
+     /* border: 3px solid rgb(180, 2, 2); */
+     flex-direction: column;
+     display: flex;
+     gap: 17px;
+     align-items: center;
+        overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+}
+
+
+
+
+.sous_icone{
+    height: 100px;
+    width: 100px;
+  /* border: 1px solid rgb(20, 232, 9); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
-  font-family: 'poppise'sans-serif;
-  font-size: 25px;
+     overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+}
+.sous_icone i{
+font-size: 100px;
+}
+
+
+.sous_texte{
+height: 30%;
+width: 100%;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+    /* border: 1px solid rgb(20, 232, 9); */
+       overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+  white-space: normal;
+}
+.sous_texte h4{
+font-size: 30px;
+}
+
+
+.case_texte{
+    height: 71%;
+    width: 100%;
+    /* border: 2px solid rgb(54, 59, 54); */
+      overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  align-items: center;
+  white-space: normal;
+
+
+}
+.case_texte p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+margin-top: 70px;
+padding: 10px;
+}
+
+#droit_espace{
+    height: 80px;
+width: 100%;
+text-align: center;
+justify-content: center;
+display: flex;
+align-items: center;
+margin-top: 45px;
+}
+#droit_espace h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+
+.essentiel_Box_souces_boutton{
+    height: 50px;
+width: 300px;
+border: 1px solid black;
+border-radius: 10px;
+align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin: 45px auto;
+}
+.essentiel_Box_souces_boutton a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.essentiel_Box_souces_boutton a i{
+    font-size: 30px
+}
+
+
+
+/* mise ne page du footer  */
+#Fin_du_site{
+    height:500px;
+    width: 100%;
+    
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   align-items: center;
+   background-color: black;
+}
+.information{
+height: 75%;
+width: 100%;
+
+display: flex;
+justify-content: space-around;
+gap: 10px;
+
+}
+
+.forter_fin_texte h3{
+    color: aliceblue;
+}
+
+.forter_fin{
+    height:80%;
+    width: 20%;
+     align-items: center;
+     background-color: black;
+padding: 20px; 
+}
+
+
+.forter_fin_texte{
+    font-size: 32px;
+padding: 10px;
+    font-family: 'poppis' sans-serif;
+
+
+}
+ul{
+     list-style: none;
+     padding: 10px;
+     font-family: 'poppis'sans-serif;
+     font-size: 24px;
+     color: aliceblue;
+}
+.forter_fin span{
+    color: aliceblue;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+}
+ /* mise en reference */
+.reference{
+height: 20%;
+width: 100%;
+
+}
+.reference p{
+    font-family: 'poppis' sans-serif;
+    font-size: 27px;
+    color: aliceblue;
 }

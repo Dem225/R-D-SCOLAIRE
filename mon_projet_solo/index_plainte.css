@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+    height: 120vh;
+}
+header{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#Logo{
+    padding: 15px;
+}
+#Logo img{
+height: 120px;
+width: 120px;
+ /* border: 1px solid black; */
+}
+
+.nav-links{
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.palce_information h5{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+margin-top: 30px;
+}
+.palce_information{
+       text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+
+.Deposer_une_plainte{
+    height: 1100px;
+    width: 50%;
+    border: 1px solid rgb(30, 27, 27);
+    margin-top: 60px;
+    margin: 45px auto;
+    flex-direction: column;
+    display: flex;
+   
+    gap: 16px;
+}
+.titre_du_dépot_de_plainte{
+    height: 10%;
+    width: 100%;
+      border: 1px solid rgb(203, 0, 0);
+      align-items: center;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+}
+.mise_en_forme{
+    height: 90%;
+    width: 100%;
+    border: 1px solid rgb(151, 240, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titre_du_dépot_de_plainte h3{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 34px ;
+}
+.mise_en_forme_de_la_page{
+    height: 95%;
+    width: 80%;
+     border: 2px solid rgb(20, 212, 196);
+     display: flex;
+  flex-direction: column;
+  gap: 20px;
+   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  white-space: normal;
+
+}
+.mere_formule{
+    height: 35%;
+    width: 100%;
+     border: 1px solid rgb(104, 155, 28);
+     display: flex;
+     flex-direction: column;
+     padding: 18px;
+      overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  white-space: normal;
+    
+}
+.formuler_texte input{
+height: 30px;
+width: 410px;
+border-radius: 7px;
+
+}
+.formuler_texte{
+    padding: 7px;
+    padding: 20px;
+}
+.formuler_texte_prenom input{
+height: 30px;
+width: 400px;
+border-radius: 7px;
+}
+.checkbox_formule{
+    padding: 10px;
+}
+.texte_aria{
+    height: 58%;
+    width: 100%;
+    border: 2px solid rgb(48, 50, 44);
+}
