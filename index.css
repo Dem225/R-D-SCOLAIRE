@@ -43,6 +43,13 @@ width: 120px;
     font-size: 20px;
 }
 
+button{
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 9px ;
+    border: 1px;
+    font-size: 17px;
+}
  /* deuxième partie  */
  
 #presentation{
@@ -100,15 +107,16 @@ display: flex;
 }
 .mise_en_page_texte{
     height: 100%;
-    width: 50%;
+    width: 60%;
      /* border: 1px solid rgb(18, 17, 17); */
      text-align: center;
      align-items: center;
      display: flex;
+     ;
 }
 .mise_en_page_texte p{
 font-family: 'Poppins',sans-serif;
-font-size: 30px;
+font-size: 20px;
 
 }
 /* la partie deux de la page  */
@@ -131,19 +139,19 @@ display: flex;
 }
 .mise_en_page_texte_page{
     height: 100%;
-    width: 50%;
+    width: 60%;
      /* border: 1px solid rgb(18, 17, 17); */
      text-align: center;
      align-items: center;
      display: flex;
        color: #0A1F44;
 
- 
     
 }
 .mise_en_page_texte_page p{
 font-family: 'Poppins',sans-serif;
-font-size: 30px;
+font-size: 20px;
+
     
 
 }
@@ -164,22 +172,22 @@ padding: 35px;
     /* border: 2px solid rgb(0, 0, 0); */
     display: flex;
     margin: 0 auto;
-    padding: 15px;
+    padding: 10px;
  }
 .texte_image{
     height: 600px;
     width: 100%;
     /* border: 1px solid rgb(196, 40, 40); */
      display: flex;
-     justify-content: space-around;
+     justify-content: space-between;
    padding: 15px;
 align-items: center;
      
 
 }
 .texte_box_image img{
-    height: 490px;
-    width: 360px;
+    height: 470px;
+    width: 300px;
     /* border: 2px solid rgb(22, 254, 239); */
     display: flex;
     justify-content: center;    
@@ -192,7 +200,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
   text-align: center;
   padding: 10px;
   font-family: 'poppise'sans-serif;
-  font-size: 25px;
+  font-size: 17px;
 }
 /* mise en place de la partie du footeur  */
 
@@ -207,7 +215,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6
    background-color: black;
 }
 .information{
-height: 75%;
+height: 80%;
 width: 100%;
 
 display: flex;
@@ -218,46 +226,52 @@ gap: 10px;
 
 .forter_fin_texte h3{
     color: aliceblue;
+    align-items: center;
+    padding: 10px;
 }
 
 .forter_fin{
-    height:80%;
-    width: 20%;
+    height:70%;
+    width: 12%;
      align-items: center;
      background-color: black;
-padding: 20px; 
+padding: 10px; 
 }
 
 
 .forter_fin_texte{
-    font-size: 32px;
-padding: 10px;
-    font-family: 'poppis' sans-serif;
-
-
+    font-size: 15px;
+align-items: center;
 }
 ul{
      list-style: none;
      padding: 10px;
      font-family: 'poppis'sans-serif;
-     font-size: 24px;
+     font-size: 17px;
      color: aliceblue;
 }
 .forter_fin span{
     color: aliceblue;
-    padding: 10px;
-    font-size: 30px;
-    margin: 10px;
+    padding: 7px;
+    font-size: 20px;
+    margin: 0px;
     display: flex;
+
 }
+span p{
+      align-items: center;
+      margin-left: 20px;
+}
+
  /* mise en reference */
 .reference{
-height: 20%;
+height: 15%;
 width: 100%;
 
 }
 .reference p{
     font-family: 'poppis' sans-serif;
-    font-size: 27px;
+    font-size: 20px;
     color: aliceblue;
 }
+

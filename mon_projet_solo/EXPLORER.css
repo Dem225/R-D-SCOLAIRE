@@ -7,6 +7,7 @@
 
 body{
     height: 120vh;
+     background: #EFF2FD;
 }
 
 header{
@@ -42,6 +43,14 @@ width: 120px;
     color: black;
     font-size: 20px;
 }
+button{
+    padding: 7px;
+    background-color: transparent;
+    border-radius: 9px ;
+    border: 1px;
+    font-size: 17px;
+}
+/* fin du header */
 #page_photo{
 height: 420px;
 width: 100%;
@@ -95,13 +104,12 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     justify-content: center;
     display: flex;
 
- 
     border-radius: 15px;
     
 }
 .sous_texte p{
     font-family: 'poppise'sans-serif;
-    font-size: 35px;
+    font-size: 20px;
        overflow: auto;
        text-overflow: ellipsis;
    
@@ -133,8 +141,8 @@ display: flex;
 justify-content: center;
 }
 .mini_box_image img{
-    height:680px ;
-    width:530px;
+    height:600px ;
+    width:400px;
     border-radius: 30px;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   
@@ -151,7 +159,7 @@ justify-content: center;
    
 }
 #resouce_texte p{
-    font-size: 28px;
+    font-size: 20px;
     font-family: serif;
 
 }
@@ -203,6 +211,7 @@ p .P {
     transform: translateX(-170px);
   }
 }
+/* fin du footer */
 
 #Fin_du_site{
     height:500px;
@@ -215,7 +224,7 @@ p .P {
    background-color: black;
 }
 .information{
-height: 75%;
+height: 80%;
 width: 100%;
 
 display: flex;
@@ -226,46 +235,52 @@ gap: 10px;
 
 .forter_fin_texte h3{
     color: aliceblue;
+    align-items: center;
+    padding: 10px;
 }
 
 .forter_fin{
-    height:80%;
-    width: 20%;
+    height:70%;
+    width: 12%;
      align-items: center;
      background-color: black;
-padding: 20px; 
+padding: 10px; 
 }
 
 
 .forter_fin_texte{
-    font-size: 32px;
-padding: 10px;
-    font-family: 'poppis' sans-serif;
-
-
+    font-size: 15px;
+align-items: center;
 }
 ul{
      list-style: none;
      padding: 10px;
      font-family: 'poppis'sans-serif;
-     font-size: 24px;
+     font-size: 17px;
      color: aliceblue;
 }
 .forter_fin span{
     color: aliceblue;
-    padding: 10px;
-    font-size: 30px;
-    margin: 10px;
+    padding: 7px;
+    font-size: 20px;
+    margin: 0px;
     display: flex;
+
 }
+span p{
+      align-items: center;
+      margin-left: 20px;
+}
+
  /* mise en reference */
 .reference{
-height: 20%;
+height: 15%;
 width: 100%;
 
 }
 .reference p{
     font-family: 'poppis' sans-serif;
-    font-size: 27px;
+    font-size: 20px;
     color: aliceblue;
 }
+

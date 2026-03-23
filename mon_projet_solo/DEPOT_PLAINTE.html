@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>R-D-SCOLAIRE</title>
     <link rel="stylesheet" href="./DEPOT_PLAINTE.css">
     <link
       rel="stylesheet"
@@ -32,65 +32,38 @@
     </header>
     <div class="palce_information"> <marquee behavior="" direction=""><h5> L’auteur M. ZEBI Lobognon Manasse Wilfreid & l’associée  Mlle ZAMPOU Halimatou vous remercient</h5></marquee></div>
 
-    <div class="Deposer_une_plainte">
+  <div class="box-container">
+     <h1 class="box-title">DÉPOSER UNE PLAINTE</h1>
+    <p class="box-intro">Merci de remplir ce formulaire pour que nous puissions traiter votre plainte rapidement.</p>
 
-<div class="titre_du_dépot_de_plainte"> 
- <h3> DEPOSER UNE PLAINTE</h3>
+    <form class="complaint-form">
+      
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" class="input-basse" placeholder="Entrez votre nom">
 
-</div>
-<div class="mise_en_forme">
+      <label for="prenom">Prénom</label>
+      <input type="text" id="prenom" class="input-basse" placeholder="Entrez votre prénom">
 
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-basse" placeholder="Entrez votre email">
 
+      <label for="objet">Objet de la plainte</label>
+      <input type="text" id="objet" class="input-basse" placeholder="Ex: Harcèlement scolaire">
 
+      <label for="description">Description de la plainte</label>
+      <textarea id="description" class="textarea-basse" rows="5" placeholder="Décrivez votre situation..."></textarea>
 
- <div class="mise_en_forme_de_la_page">
-     <div class="mere_formule">
+      <div class="category-section">
+        <p>Type de plainte :</p>
+        <label><input type="radio" name="categorie" value="scolaire">  Scolaire</label>
+        <label><input type="radio" name="categorie" value="travail">  Travail</label>
+        <label><input type="radio" name="categorie" value="internet">  Internet</label>
+      </div>
 
+      <button type="connexion" class="connexion-button">Soumettre la plainte</button>
+      <p class="help-text">Besoin d’aide ? <a href="#">Contactez-nous</a></p>
 
-              <div class="formuler_texte"> 
-              <label for="Nom">Nom</label>
-             <input type="text" placeholder="Veuillez entrer votre Nom">
-              </div>
-             <div class="formuler_texte_prenom"> 
-            <label for="Prénom">Prénom</label>
-            <input type="text" placeholder="Prénom">
-                </div>
-               <div class="formuler_texte"> 
-            <label for="Email">Email</label>
-            <input type="email" placeholder="Veuillez entrer votre Email">
-              </div>
-
-
-             <div class="checkbox_formule"> 
-            <input type="checkbox" >
-            <label for="Scolaire">Scolaire</label>
-              </div>
-              <div class="checkbox_formule" > 
-            <input type="checkbox">
-            <label for="Travail">Travail</label>
-              </div>
-              <div class="checkbox_formule"> 
-           
-             <input type="checkbox">
-             <label for="Internet">Internet </label>
-              </div>
-
-    </div>
-
-    <div class="texte_aria"> 
-
-
-    </div>
-        
-
-</div>
-   
-
-
-
-</div>
-
-
-
+    </form>
+  </div>
 </body>
 </html>
