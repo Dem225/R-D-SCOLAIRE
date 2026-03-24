@@ -95,3 +95,70 @@ a{
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+
+/* ============================================================
+   SECTION RESPONSIVE - SANS MODIFICATION DU CODE INITIAL
+   ============================================================ */
+
+@media screen and (max-width: 480px) {
+    /* 1. On libère la hauteur pour ne pas couper les champs */
+    body {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 0; /* Ajoute de l'espace en haut et en bas */
+        align-items: flex-start; /* Aligne le formulaire vers le haut */
+    }
+
+    /* 2. Le cadre s'adapte à la largeur du téléphone */
+    .container {
+        width: 90%; 
+        height: auto; /* La hauteur s'ajuste selon le nombre d'inputs */
+        min-height: 600px;
+        border-radius: 20px;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+
+    /* 3. On remet la boîte interne à une taille cohérente */
+    .container_box {
+        width: 100%; 
+        height: auto;
+    }
+
+    /* 4. On ajuste le formulaire pour mobile */
+    .form {
+        width: 100%;
+        padding: 30px 20px; /* Marges internes plus compactes */
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    /* 5. Optimisation des champs de saisie */
+    input {
+        padding: 14px 20px;
+        margin-bottom: 12px !important; /* Réduit l'espace entre les champs */
+        font-size: 14px;
+        border: 1px solid #ddd; /* Optionnel : aide à voir les champs sur mobile */
+    }
+
+    button {
+        padding: 14px;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+    p {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+}
+
+/* Correction pour les écrans très courts ou mode paysage */
+@media screen and (max-height: 700px) {
+    body {
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+}

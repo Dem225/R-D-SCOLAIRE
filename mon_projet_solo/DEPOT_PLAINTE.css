@@ -142,3 +142,75 @@ a{
     text-decoration: none;
   color: #666;
 }
+
+
+
+/* ============================================================
+   AJOUT RESPONSIVE (SANS MODIFICATION DU CODE EXISTANT)
+   ============================================================ */
+
+/* Correction du body pour le défilement mobile */
+body {
+    height: auto !important;
+    min-height: 100vh;
+}
+
+/* 1. Adaptation du Header (Logo et Navigation) */
+@media screen and (max-width: 850px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    .nav-links {
+        padding: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* 2. Adaptation du Message Défilant (Marquee) */
+@media screen and (max-width: 600px) {
+    .palce_information h5 {
+        font-size: 18px !important; /* Réduction de la taille sur mobile */
+        margin-top: 15px;
+    }
+}
+
+/* 3. Adaptation du Formulaire (Box Container) */
+@media screen and (max-width: 650px) {
+    .box-container {
+        width: 90% !important; /* Prend presque toute la largeur */
+        height: auto !important; /* On annule le fixe de 800px */
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .complaint-form {
+        height: auto !important;
+        overflow: visible !important;
+    }
+
+    /* On s'assure que les inputs font bien 100% sans dépasser */
+    .input-basse, .textarea-basse {
+        box-sizing: border-box; 
+    }
+
+    .box-title {
+        font-size: 20px;
+    }
+}
+
+/* 4. Optimisation des éléments de clic sur Mobile */
+@media screen and (max-width: 480px) {
+    .category-section label {
+        padding: 10px 0; /* Plus d'espace pour cliquer sur les options */
+        border-bottom: 1px solid rgba(0,0,0,0.05);
+    }
+    
+    .connexion-button {
+        padding: 15px; /* Bouton plus large pour le pouce */
+    }
+}

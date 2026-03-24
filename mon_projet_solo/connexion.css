@@ -94,3 +94,60 @@ a{
   text-decoration: none;
   color: rgb(17, 17, 17);
 }
+
+
+
+
+/* ============================================================
+   AJOUT RESPONSIVE (SANS MODIFICATION DU CODE EXISTANT)
+   ============================================================ */
+
+@media screen and (max-width: 480px) {
+    /* 1. On adapte la taille du conteneur principal */
+    .container {
+        width: 90%; /* Prend 90% de la largeur du téléphone */
+        height: auto; /* Laisse la hauteur s'adapter au contenu */
+        min-height: 500px;
+        margin: 20px;
+        border-radius: 20px; /* Des coins un peu plus doux sur mobile */
+    }
+
+    /* 2. On ajuste le slider et le formulaire */
+    .slider {
+        width: 200%; /* Garde la place pour deux formulaires si besoin */
+    }
+
+    .form {
+        width: 100%; /* Le formulaire prend toute la largeur du container */
+        padding: 30px 20px; /* On réduit un peu les marges internes */
+    }
+
+    /* 3. On optimise les textes et champs pour mobile */
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        padding: 14px 18px; /* Un peu moins haut pour gagner de la place */
+        font-size: 14px;
+    }
+
+    button {
+        padding: 14px;
+        font-size: 15px;
+    }
+
+    .form p {
+        font-size: 13px;
+    }
+}
+
+/* 4. Fix pour les très petits écrans (iPhone SE, etc.) */
+@media screen and (max-height: 600px) {
+    body {
+        align-items: flex-start; /* Aligne en haut pour pouvoir scroller */
+        padding-top: 20px;
+        height: auto;
+    }
+}
