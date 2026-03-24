@@ -77,8 +77,8 @@ overflow: hidden;
 overflow: hidden;
 }
 .mini_photo img{
-height: 350px;
-width: 530px;
+height: 300px;
+width: 490px;
 border-radius: 45px;
 box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -109,7 +109,7 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .sous_texte p{
     font-family: 'poppise'sans-serif;
-    font-size: 20px;
+    font-size: 23px;
        overflow: auto;
        text-overflow: ellipsis;
    
